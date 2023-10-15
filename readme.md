@@ -33,16 +33,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ## Tab-Dacnce
 
 **TD_MEDIA**
-1 tap -  MEDIA_PLAY_PAUSE
-2 taps - MEDIA_NEXT_TRACK
-3 taps - MEDIA_PREV_TRACK
+ 1 tap -  MEDIA_PLAY_PAUSE
+ 2 taps - MEDIA_NEXT_TRACK
+ 3 taps - MEDIA_PREV_TRACK
 
 **TD_VOL**
-1 tap -  AUDIO_VOL_DOWN
-2 taps - AUDIO_MUTE
+ 1 tap -  AUDIO_VOL_DOWN
+ 2 taps - AUDIO_MUTE
 
 ## Combo
 [_LOWER + _RAISE] => _ADJUST 
+
 [TAB + Q] => ESC
 
 ## RGB
@@ -60,4 +61,5 @@ RGB implementation is based at `keyboards/crkbd/keymaps/rpbaptist``
 ## Building
 
  `qmk flash -kb crkbd -km vldk -bl avrdude-split-left`
+
  `qmk flash -kb crkbd -km vldk -bl avrdude-split-right`
