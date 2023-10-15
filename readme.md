@@ -1,7 +1,6 @@
 ## Keymap
 
 ```c
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[_QWERTY] = LAYOUT_split_3x6_3(
         KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T,                              KC_Y, KC_U, KC_I, KC_O, KC_P, KC_BSPC,
@@ -19,7 +18,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         QK_GESC, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5,                         KC_PSCR, C(RCTL(KC_LEFT)), KC_UP, C(RCTL(KC_RGHT)), KC_PGUP, C(RCTL(KC_BSPC)),
         KC_TRNS, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10,                        KC_INS, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN, KC_HOME,
         KC_TRNS, KC_F11, KC_F12, KC_NO, KC_NO, KC_CAPS,                     KC_DEL, KC_NO, KC_PPLS, KC_PMNS, KC_SLSH, KC_END,
-                                        KC_TRNS, KC_TRNS, KC_RGUI,    KC_TRNS, KC_NO, KC_APP
+                                        KC_RGUI, KC_TRNS, KC_TRNS,    KC_TRNS, KC_NO, KC_APP
     ),
 	[_ADJUST] = LAYOUT_split_3x6_3(
         RGB_RST, RGB_ATG, KC_NO, KC_SCRL, KC_PAUS, KC_NUM,                      KC_CALC, KC_P7, KC_P8, KC_P9, KC_PAST, KC_PPLS,
@@ -28,23 +27,24 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                         KC_TRNS, KC_TRNS, KC_TRNS,      KC_TRNS, KC_TRNS, KC_TRNS
     )
 };
+
+
 ```
 
 ## Tab-Dacnce
 
 **TD_MEDIA**
- 1 tap -  MEDIA_PLAY_PAUSE
- 2 taps - MEDIA_NEXT_TRACK
- 3 taps - MEDIA_PREV_TRACK
+- 1 tap -  MEDIA_PLAY_PAUSE
+- 2 taps - MEDIA_NEXT_TRACK
+- 3 taps - MEDIA_PREV_TRACK
 
 **TD_VOL**
- 1 tap -  AUDIO_VOL_DOWN
- 2 taps - AUDIO_MUTE
+- 1 tap -  AUDIO_VOL_DOWN
+- 2 taps - AUDIO_MUTE
 
 ## Combo
-[_LOWER + _RAISE] => _ADJUST 
-
-[TAB + Q] => ESC
+- [_LOWER + _RAISE] => _ADJUST 
+- [TAB + Q] => ESC
 
 ## RGB
 

@@ -90,7 +90,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         QK_GESC, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5,                         KC_PSCR, C(RCTL(KC_LEFT)), KC_UP, C(RCTL(KC_RGHT)), KC_PGUP, C(RCTL(KC_BSPC)),
         KC_TRNS, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10,                        KC_INS, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN, KC_HOME,
         KC_TRNS, KC_F11, KC_F12, KC_NO, KC_NO, KC_CAPS,                     KC_DEL, KC_NO, KC_PPLS, KC_PMNS, KC_SLSH, KC_END,
-                                        KC_TRNS, KC_TRNS, KC_RGUI,    KC_TRNS, KC_NO, KC_APP
+                                        KC_RGUI, KC_TRNS, KC_TRNS,    KC_TRNS, KC_NO, KC_APP
     ),
 	[_ADJUST] = LAYOUT_split_3x6_3(
         RGB_RST, RGB_ATG, KC_NO, KC_SCRL, KC_PAUS, KC_NUM,                      KC_CALC, KC_P7, KC_P8, KC_P9, KC_PAST, KC_PPLS,
